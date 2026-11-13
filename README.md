@@ -50,7 +50,7 @@ Advanced Multicharacter shows each character standing in the city in its own loo
 - Name, date of birth, gender and nationality.
 - The nationality picked from every country, or typed freely.
 - Names and age checked on the server.
-- The look made in your clothing resource, in a room of its own.
+- The look made in your clothing resource, where no other player sees it.
 - Starter items from your framework.
 
 #### Starting
@@ -237,7 +237,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 - الاسم، وتاريخ الميلاد، والجنس، والجنسية
 - الجنسية من قائمة كل دول العالم، أو تنكتب بحرية
 - الأسماء والعمر يتحقق منها السيرفر
-- الشكل يتسوى من ريسورس الملابس حقك، بغرفة خاصة
+- الشكل يتسوى من ريسورس الملابس حقك، وما يشوفك أي لاعب ثاني وأنت تسويه
 - أغراض البداية من الفريم وورك حقك
 
 #### الدخول
