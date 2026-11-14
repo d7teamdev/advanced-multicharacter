@@ -23,7 +23,7 @@ Advanced Multicharacter shows each character standing in the city in its own loo
 |---|---|
 | **Works with** | QBCore, QBox and ESX servers, CFW included |
 | **Clothing** | Most clothing resources, on every framework |
-| **Characters** | 5 slots, more per player or Discord role |
+| **Characters** | 3 slots, more per player or Discord role |
 | **Spawn** | Where the character last was |
 | **Language** | Arabic and English |
 
@@ -210,7 +210,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 |---|---|
 | **يشتغل مع** | سيرفرات QBCore و QBox و ESX، ومعها CFW |
 | **الملابس** | أغلب ريسورسات الملابس مدعومة، لكل أنواع الفريم وورك |
-| **الشخصيات** | 5 خانات، وأكثر للاعب معيّن أو لرتبة بالدسكورد |
+| **الشخصيات** | 3 خانات، وأكثر للاعب معيّن أو لرتبة بالدسكورد |
 | **الرسبن** | بنفس المكان اللي طلعت منه الشخصية |
 | **اللغة** | العربي والإنجليزي |
 
