@@ -9,9 +9,9 @@
 
 ## Advanced Multicharacter — FiveM Multicharacter for QBCore, QBox, ESX & CFW
 
-FiveM multicharacter for QBCore, QBox, ESX & CFW: each character in the city with its own car, a new identity with nationality, extra slots by Discord role.
+FiveM multicharacter for QBCore, QBox, ESX & CFW: each character in the city with its own car, customizable slots, nationality from every country.
 
-Advanced Multicharacter shows each character standing in the city in its own look, with one of its own cars beside it, and the camera drifting slowly. Players make a new identity, pick a nationality from every country, make the look in their clothing resource, and wake up on the ground where they last were.
+Advanced Multicharacter shows every character standing in the city in its own outfit, beside one of its own cars, under a cinematic camera. You set how many characters each player gets, nationalities come from every country in the world, and every character spawns where it last was.
 
 > This repository is documentation only. The resource is sold on our store and downloaded from the Client Area after you redeem your code.
 
@@ -23,49 +23,46 @@ Advanced Multicharacter shows each character standing in the city in its own loo
 |---|---|
 | **Works with** | QBCore, QBox and ESX servers, CFW included |
 | **Clothing** | Most clothing resources, on every framework |
-| **Characters** | 3 slots, more per player or Discord role |
-| **Spawn** | Where the character last was |
+| **Characters** | As many as you set, more for chosen players or groups |
+| **Nationality** | Every country in the world |
+| **Spawn** | The character's last location |
 | **Language** | Arabic and English |
 
 ### Features
 
 #### The scene
 
-- Each character stands in the city in its own look, with a pose.
-- One of the character's own cars beside it, with its paint and parts.
-- Switch to another of its cars with C, and the choice is kept.
-- Change the pose, and the camera drifts slowly with depth of field.
-- The scene keeps your server's own time and weather.
+- Every character stands in the city in its own outfit, beside one of its own cars with its paint and parts.
+- Switch between the character's cars, and its choice is remembered.
+- Eight poses to switch between.
+- A cinematic camera with depth of field, under your server's own time and weather.
+- Hide the menu for a clean shot of the character.
 
 #### Characters
 
-- Each character's face at the top of the menu.
-- Name, age, nationality, job, cash, bank, phone, citizen ID, play time and last played.
-- Slots for everyone, more for one player, or more for a Discord role.
-- Delete a character by typing its full name, or turn deleting off.
+- A card for each character: face, name, age, nationality, job, cash, bank, phone, citizen ID, play time and last played.
+- Set the number of characters, with more for chosen players or for groups such as VIP.
+- Safe delete by typing the character's full name, or turn deleting off.
 - Streamer mode hides the phone number and the money.
 
 #### A new character
 
-- Name, date of birth, gender and nationality.
-- The nationality picked from every country, or typed freely.
-- Names and age checked on the server.
-- The look made in your clothing resource, where no other player sees it.
-- Starter items from your framework.
+- A new identity: name, date of birth, gender and nationality.
+- Nationality from every country in the world, or typed freely.
+- Set the allowed age range.
+- Set where new characters start.
 
-#### Starting
+#### Spawn
 
-- Starts where the character last was, with no spawn menu.
-- Wakes up on the ground with its own camera.
-- A character saved dead or down stays that way for your ambulance job.
+- Spawns at the character's last location, with no spawn menu.
+- A character that left dead or down comes back the same way, so nobody escapes by leaving.
 
 #### Configuration and logs
 
-- /logout for the framework's top permission or an ACE you give.
-- An event and an export to send a player back to the menu from your own scripts.
+- /logout for admins, and an event and an export to send a player back to the menu from your own scripts.
 - Discord logs for created, loaded and deleted characters.
-- The menu's colours from the config.
-- Takes the place of qb-multicharacter and esx_multicharacter, so resources that call them keep working.
+- Customizable menu colours, and the scene's place anywhere on the map.
+- Replaces qb-multicharacter and esx_multicharacter, so resources that call them keep working.
 
 ### Video
 
@@ -152,7 +149,7 @@ QBCore, QBox and ESX servers, CFW included, and most clothing resources are supp
 <details>
 <summary><b>Can some players have more characters?</b></summary>
 
-Yes. Everyone gets the same number of slots, and you can give more to one player by their licence, or to a Discord role through an ACE group.
+Yes. You set how many characters everyone gets, and you can give more to one player, or to an ACE group such as VIP. A Discord role gets them too when your server gives its roles ACE groups.
 
 </details>
 
@@ -196,9 +193,9 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 ## ملتي كركتر متطور — سكربت ملتي كركتر فايف ام لـ QBCore و QBox و ESX و CFW
 
-سكربت ملتي كركتر فايف ام لـ QBCore و QBox و ESX و CFW: كل شخصية بالمدينة مع سيارتها، هوية جديدة مع الجنسية، وخانات إضافية برتبة الدسكورد.
+سكربت ملتي كركتر فايف ام لـ QBCore و QBox و ESX و CFW: كل شخصية بالمدينة مع سيارتها، عدد شخصيات تتحكم فيه، وجنسيات من كل دول العالم.
 
-ملتي كركتر متطور يعرض كل شخصية واقفة بالمدينة بلبسها، وجنبها وحدة من سياراتها، والكاميرا تتحرك بهدوء. اللاعب يسوي هوية جديدة، ويختار جنسيته من كل دول العالم، ويسوي شكله من ريسورس الملابس، ويصحى من الأرض بنفس المكان اللي طلع منه.
+ملتي كركتر متطور يعرض كل شخصية واقفة بالمدينة بلبسها، وجنبها وحدة من سياراتها، بكاميرا سينمائية. تحدد عدد الشخصيات لكل لاعب، والجنسيات من كل دول العالم، وكل شخصية ترسبن بآخر مكان كانت فيه.
 
 > هذا المستودع للتعريف والشرح فقط. الريسورس يُباع في متجرنا، وتحمّله من منطقة العميل بعد ما تفعّل الكود
 
@@ -210,49 +207,46 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 |---|---|
 | **يشتغل مع** | سيرفرات QBCore و QBox و ESX، ومعها CFW |
 | **الملابس** | أغلب ريسورسات الملابس مدعومة، لكل أنواع الفريم وورك |
-| **الشخصيات** | 3 خانات، وأكثر للاعب معيّن أو لرتبة بالدسكورد |
-| **الرسبن** | بنفس المكان اللي طلعت منه الشخصية |
+| **الشخصيات** | العدد اللي تحدده، وأكثر للاعبين أو قروبات تختارها |
+| **الجنسية** | كل دول العالم |
+| **الرسبن** | آخر مكان كانت فيه الشخصية |
 | **اللغة** | العربي والإنجليزي |
 
 ### المميزات
 
 #### المشهد
 
-- كل شخصية واقفة بالمدينة بلبسها، بوضعية
-- وحدة من سيارات الشخصية جنبها، بلونها وقطعها
-- تبدّل لسيارة ثانية من سياراتها بزر C، ويتحفظ اختيارك
-- تغيّر الوضعية، والكاميرا تتحرك بهدوء مع عمق الصورة
-- المشهد على وقت سيرفرك وجوه نفسه
+- كل شخصية واقفة بالمدينة بلبسها، وجنبها وحدة من سياراتها بلونها وقطعها
+- تبديل سيارات الشخصية، ويتحفظ اختيارها
+- ثمان وضعيات تتنقل بينها
+- كاميرا سينمائية مع عمق الصورة، على وقت سيرفرك وجوه
+- إخفاء المنيو عشان تاخذ لقطة نظيفة للشخصية
 
 #### الشخصيات
 
-- صورة وجه كل شخصية بأعلى المنيو
-- الاسم، والعمر، والجنسية، والوظيفة، والكاش، والبنك، والجوال، ورقم المواطن، ووقت اللعب، وآخر دخول
-- خانات للكل، وأكثر للاعب معيّن، أو أكثر لرتبة بالدسكورد
-- حذف الشخصية بكتابة اسمها كامل، أو تقفل الحذف
+- بطاقة لكل شخصية: الوجه، الاسم، العمر، الجنسية، الوظيفة، الكاش، البنك، الجوال، رقم المواطن، وقت اللعب، وآخر دخول
+- تحدد عدد الشخصيات، وتعطي أكثر للاعبين تختارهم أو لقروبات مثل VIP
+- حذف آمن بكتابة اسم الشخصية كامل، أو تقفل الحذف
 - وضع الستريمر يخفي رقم الجوال والفلوس
 
 #### شخصية جديدة
 
-- الاسم، وتاريخ الميلاد، والجنس، والجنسية
-- الجنسية من قائمة كل دول العالم، أو تنكتب بحرية
-- الأسماء والعمر يتحقق منها السيرفر
-- الشكل يتسوى من ريسورس الملابس حقك، وما يشوفك أي لاعب ثاني وأنت تسويه
-- أغراض البداية من الفريم وورك حقك
+- هوية جديدة: الاسم، تاريخ الميلاد، الجنس، والجنسية
+- الجنسية من كل دول العالم، أو تنكتب بحرية
+- تحدد العمر المسموح
+- تحدد مكان بداية الشخصيات الجديدة
 
-#### الدخول
+#### الرسبن
 
-- تبدأ بنفس المكان اللي طلعت منه الشخصية، بدون منيو رسبن
-- تصحى من الأرض بكاميرا خاصة
-- الشخصية المحفوظة ميتة أو طايحة تبقى كذا لوظيفة الإسعاف حقك
+- الرسبن بآخر مكان كانت فيه الشخصية، بدون منيو رسبن
+- الشخصية اللي طلعت وهي ميتة أو طايحة ترجع بنفس حالتها، فما أحد يهرب بالخروج
 
 #### الإعداد واللوقات
 
-- أمر ⁦/logout⁩ لأعلى صلاحية بالفريم وورك أو ACE تعطيه
-- إيفنت و export ترجّع فيهم اللاعب للمنيو من سكربتاتك
-- لوقات دسكورد للشخصيات اللي تنسوي وتدخل وتنحذف
-- ألوان المنيو من الكونفق
-- ياخذ مكان qb-multicharacter و esx_multicharacter، فالريسورسات اللي تناديهم تكمل شغلها
+- أمر ⁦/logout⁩ للإدارة، وإيفنت و export ترجّع فيهم اللاعب للمنيو من سكربتاتك
+- لوقات دسكورد لإنشاء الشخصيات ودخولها وحذفها
+- ألوان المنيو قابلة للتخصيص، ومكان المشهد بأي مكان بالخريطة
+- يحل مكان qb-multicharacter و esx_multicharacter، فالريسورسات اللي تناديهم تكمل شغلها
 
 ### الفيديو
 
@@ -351,7 +345,7 @@ ensure d7-multicharacter
 <details>
 <summary><b>هل أقدر أعطي بعض اللاعبين شخصيات أكثر؟</b></summary>
 
-نعم. الكل له نفس عدد الخانات، وتقدر تعطي أكثر للاعب معيّن بالرخصة حقته، أو لرتبة بالدسكورد عن طريق قروب ACE
+نعم. تحدد عدد الشخصيات للكل، وتقدر تعطي أكثر للاعب معيّن، أو لقروب ACE مثل VIP. ورتبة الدسكورد تاخذها بعد إذا سيرفرك يعطي رتب الدسكورد قروبات ACE
 
 </details>
 
